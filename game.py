@@ -10,6 +10,7 @@ class Move(NamedTuple):
     row: int
     col: int
     label: str = ""
+###delarammmmm
 
 
 BOARD_SIZE = 3
@@ -17,7 +18,6 @@ DEFAULT_PLAYERS = (
     Player(label="X", color="blue"),
     Player(label="O", color="red"),
 )
-
 
 class Game:
     def __init__(self, players=DEFAULT_PLAYERS, board_size=BOARD_SIZE):
