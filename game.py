@@ -11,7 +11,7 @@ class Move(NamedTuple):
     col: int
     label: str = ""
 
-
+####seayeshhhhhhhhhh
 BOARD_SIZE = 3
 DEFAULT_PLAYERS = (
     Player(label="X", color="blue"),
