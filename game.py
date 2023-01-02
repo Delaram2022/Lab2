@@ -51,6 +51,7 @@ class Game:
     def is_valid_move(self, move):
         """Return True if move is valid, and False otherwise."""
         row, col = move.row, move.col
+        #delaram
         # TODO: check that the current move has not been played already 
         # and that there is no winner yet. Note that non-played cells
         # contain an empty string (i.e. ""). 
